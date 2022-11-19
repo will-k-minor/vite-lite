@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import { Onboarding } from './page-components/onboarding'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
+import { Onboarding } from "./page-components/onboarding";
 
 function App() {
-
   return (
     <div className="App">
       <div>
@@ -18,7 +17,7 @@ function App() {
       <h1>Vite + React.js</h1>
       <Onboarding step={0} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1572,6 +1572,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-hook-form@npm:^7.39.4":
+  version: 7.39.4
+  resolution: "react-hook-form@npm:7.39.4"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: 767337330a9ce305296adb435e05380fb138308931a0ca20f7a681604acf16a978f14f48d52279fb2eccc690f808622fa4db019835fd0e4fd6a768d2c13b83d0
+  languageName: node
+  linkType: hard
+
 "react-refresh@npm:^0.14.0":
   version: 0.14.0
   resolution: "react-refresh@npm:0.14.0"
@@ -1899,8 +1908,10 @@ __metadata:
     "@vitejs/plugin-react": ^2.2.0
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-hook-form: ^7.39.4
     typescript: ^4.6.4
     vite: ^3.2.0
+    zod: ^3.19.1
   languageName: unknown
   linkType: soft
 
@@ -1970,5 +1981,12 @@ __metadata:
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.19.1":
+  version: 3.19.1
+  resolution: "zod@npm:3.19.1"
+  checksum: 56e420ea5845912324a8fc61833714a2aec84954e418b52660d76502183c6e62fef9447cbfa64349640c5ce190cf2c24267e006bb80f066183e2f3fa9fe11864
   languageName: node
   linkType: hard
